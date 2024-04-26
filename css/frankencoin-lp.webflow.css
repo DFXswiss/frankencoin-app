@@ -52,6 +52,7 @@ h3 {
 
 .nav-wrapper {
   background-color: #ec625f;
+  display: block;
   position: fixed;
   top: 0%;
   bottom: auto;
@@ -1073,6 +1074,10 @@ h3 {
 
   .button-text {
     font-size: 12px;
+  }
+
+  .nav-menu {
+    display: block;
   }
 
   .nav-close-wrapper {
