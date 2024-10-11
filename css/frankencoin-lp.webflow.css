@@ -54,10 +54,7 @@ h3 {
   background-color: #ec625f;
   display: block;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .body {
@@ -66,7 +63,7 @@ h3 {
 }
 
 .navbar {
-  background-color: rgba(221, 221, 221, 0);
+  background-color: #ddd0;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -170,8 +167,7 @@ h3 {
 
 .brand-grid {
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  justify-items: stretch;
+  place-items: center stretch;
 }
 
 .brand-image {
@@ -646,10 +642,7 @@ h3 {
   background-color: #ec625f;
   display: none;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .nav-close-wrapper {
